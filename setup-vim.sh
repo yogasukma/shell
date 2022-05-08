@@ -49,3 +49,8 @@ nmap ga <Plug>(EasyAlign)
 autocmd FileType php inoremap <Leader>u <Esc>:call IPhpInsertUse()<CR>
 autocmd FileType php noremap <Leader>u :call PhpInsertUse()<CR>
 END
+
+cd ~/.vim/bundle/coc.nvim
+yarn install
+
+cd ~
